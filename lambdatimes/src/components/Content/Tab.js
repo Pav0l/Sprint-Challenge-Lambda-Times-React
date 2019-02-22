@@ -7,8 +7,6 @@ const Tab = ({ tab, selectedTab, selectTabHandler }) => {
       if they match, the className should be: 'tab active-tab', 
       if it is not it should just be 'tab'*/
   
-  // const styleSelector = tab === selectedTab ? 'active-tab' : 'tab';
-  
   return (
     <div>
     {
